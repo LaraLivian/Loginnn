@@ -1,0 +1,373 @@
+  @import url('https://fonts.cdnfonts.com/css/garet');
+
+
+  .parte-da-tela {
+    width: 100%; /* Por exemplo, 50% da largura da tela */
+    height: 30%; /* 100% da altura da tela */
+    background-image: url(./assets/images/backcolor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para colocar a div atrás do conteúdo da página */   
+  }
+
+body{
+  color: aliceblue;
+
+}
+
+
+
+#title{
+    font-size: 35px;
+    height: 40px;
+    font-family: 'Garet', sans-serif;
+    margin-top: 40px;
+
+                                                
+}
+
+
+
+
+#form{
+    margin-top: -65px;
+    top: 95px; /* Posiciona a barra de pesquisa 20 pixels a partir do topo */
+    left: 270px; /* Posiciona a barra de pesquisa 50 pixels a partir da esquerda */
+
+  
+
+}
+input[type="text"] {
+    width: 450px;
+    height: 30px;
+    color: black;
+    margin: 1px;
+    padding: 5px;
+    border: 2px solid; color: rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    margin-left: 370px;
+  }
+ 
+.meus-botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: flex-start; /* Alinha os elementos no topo */
+   float: right; /* Alinha os botões à direita */
+    margin-right: 80px;
+    background-color: #007bff; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 15px 35px; /* Preenchimento */
+    border: none; /* Remover a borda padrão */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    cursor: pointer; /* Alterar o cursor ao passar o mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Efeitos de transição */  
+  margin-top: -50px;
+    
+}
+.meus-botoes:hover{
+    background-color: #150063ce; /* Mudar a cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+  select{
+  margin-top: 50px;
+  width: 176px;
+  height: 30px;
+  background-color: #f6f8f8ce;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Garet', sans-serif;
+
+  }
+ select:hover{
+  
+  background-color: #b4e1f39c; /* Cor de fundo ao passar o mouse */
+  color: #000000; /* Cor do texto ao passar o mouse */
+}
+
+div.panel{
+  background-color: #fff;
+  width: 75%;
+  padding: 15px 15px;
+  box-shadow: 5px 5px black;
+}
+.border-box-element {
+  width: 180px; /* Largura total, incluindo o preenchimento e a borda */
+  height: 300px; /* Altura total, incluindo o preenchimento e a borda */
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: white;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+  margin-top: 60px;
+  color: #030303;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.meus-botoes:hover{
+    background-color: #14a1f3ce; /* Mudar a cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+
+#fontexr{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  color: rgb(0, 0, 0);
+  margin-top: -80px;
+  font-size: 20px;
+}
+#valorxr{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  color: rgb(0, 0, 0);
+  margin-top: -80px;
+  font-size: 20px;
+}
+
+
+
+.iphone11{
+  height: 200px;
+  width:150px;
+  margin-top: -110px;
+  margin-left: -5px;
+ 
+}
+
+
+.border-box-element-2 {
+  margin-left: 240px;
+  margin-top: -305px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; 
+  border: 5px solid #3a3535a9; 
+  border-radius: 20px;
+  box-sizing: border-box; 
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; 
+}
+
+.iphonexr{
+  height: 200px;
+  width:150px;
+  margin-top: -110px;
+
+}
+
+.border-box-element-3 {
+  margin-left: 500px;
+  margin-top: -300px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+.iphone15{
+  height: 200px;
+  width:150px;
+  margin-top: -110px;
+}
+
+.border-box-element-4 {
+  margin-left: 750px;
+  margin-top: -300px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: white;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+.iphone12{
+  height: 200px;
+  width:170px;
+  margin-top: -110px;
+  margin-left: -20px;
+
+}
+.border-box-element-5 {
+  margin-left: 1000px;
+  margin-top: -300px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: white;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+
+.s23{
+  height: 200px;
+  width:150px;
+  margin-top: -110px;
+}
+.border-box-element-6 {
+  margin-left: 210px;
+  margin-top: -330px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: white;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+.s21{
+  height: 220px;
+  width:170px;
+  margin-top: -110px;
+  margin-left: -20px;
+ 
+}
+
+.border-box-element-7 {
+  margin-left: 480px;
+  margin-top: -300px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: white;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+.s22{
+  height: 220px;
+  width:170px;
+  margin-top: -110px;
+  margin-left: -20px;
+}
+
+.border-box-element-8 {
+  margin-left: 730px;
+  margin-top: -305px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; 
+  border: 5px solid #3a3535a9; 
+  border-radius: 20px;
+  box-sizing: border-box; 
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; 
+}
+.g23{
+  height: 230px;
+  width:170px;
+  margin-top: -110px;
+  margin-left: -20px;
+}
+.border-box-element-9 {
+  margin-left: 980px;
+  margin-top: -305px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; 
+  border: 5px solid #3a3535a9; 
+  border-radius: 20px;
+  box-sizing: border-box; 
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; 
+}
+.g53{
+  height: 190px;
+  width:140px;
+  margin-top: -90px;
+  margin-left: 0px;
+}
+
+.border-box-element-10 {
+  width: 180px;
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: white;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+  margin-top: 60px;
+  margin-left: -25px;
+  color: #030303;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.border-box-element-11 {
+  margin-left: 210px;
+  margin-top: -333px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; 
+  border: 5px solid #3a3535a9; 
+  border-radius: 20px;
+  box-sizing: border-box; 
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; 
+}
+.border-box-element-12 {
+  margin-left: 245px;
+  margin-top: -330px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+.border-box-element-13 {
+  margin-left: 225px;
+  margin-top: -330px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
+.border-box-element-14 {
+  margin-left: 225px;
+  margin-top: -330px;
+  width: 180px; 
+  height: 300px; 
+  padding: 20px; /* Preenchimento */
+  border: 5px solid #3a3535a9; /* Borda */
+  border-radius: 20px;
+  box-sizing: border-box; /* Modelo de caixa border-box */
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 100px; /* Centralizar o texto verticalmente */
+}
